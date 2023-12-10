@@ -1,0 +1,12 @@
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\bin\Debug\net7.0\Database.Mongo.deps.json
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\bin\Debug\net7.0\Database.Mongo.dll
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\bin\Debug\net7.0\Database.Mongo.pdb
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\obj\Debug\net7.0\Database.Mongo.csproj.AssemblyReference.cache
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\obj\Debug\net7.0\Database.Mongo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\obj\Debug\net7.0\Database.Mongo.AssemblyInfoInputs.cache
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\obj\Debug\net7.0\Database.Mongo.AssemblyInfo.cs
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\obj\Debug\net7.0\Database.Mongo.csproj.CoreCompileInputs.cache
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\obj\Debug\net7.0\Database.Mongo.dll
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\obj\Debug\net7.0\refint\Database.Mongo.dll
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\obj\Debug\net7.0\Database.Mongo.pdb
+C:\Users\Erik\RiderProjects\LinkShorterApi\Database.Mongo\obj\Debug\net7.0\ref\Database.Mongo.dll

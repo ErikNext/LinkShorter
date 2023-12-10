@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RJqgP9wBRBguPLKHzQuGCWtp8j7hVRE/rxflwKHyfTY=",
+  "Source": "LinkShorterApi",
+  "BasePath": "_content/LinkShorterApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
