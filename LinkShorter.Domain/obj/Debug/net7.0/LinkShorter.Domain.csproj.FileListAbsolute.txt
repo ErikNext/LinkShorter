@@ -1,0 +1,15 @@
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\bin\Debug\net7.0\LinkShorter.Domain.deps.json
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\bin\Debug\net7.0\LinkShorter.Domain.dll
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\bin\Debug\net7.0\LinkShorter.Domain.pdb
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\bin\Debug\net7.0\Database.Mongo.dll
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\bin\Debug\net7.0\Database.Mongo.pdb
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\obj\Debug\net7.0\LinkShorter.Domain.csproj.AssemblyReference.cache
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\obj\Debug\net7.0\LinkShorter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\obj\Debug\net7.0\LinkShorter.Domain.AssemblyInfoInputs.cache
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\obj\Debug\net7.0\LinkShorter.Domain.AssemblyInfo.cs
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\obj\Debug\net7.0\LinkShorter.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\obj\Debug\net7.0\LinkShorter.Domain.csproj.CopyComplete
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\obj\Debug\net7.0\LinkShorter.Domain.dll
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\obj\Debug\net7.0\refint\LinkShorter.Domain.dll
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\obj\Debug\net7.0\LinkShorter.Domain.pdb
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorter.Domain\obj\Debug\net7.0\ref\LinkShorter.Domain.dll

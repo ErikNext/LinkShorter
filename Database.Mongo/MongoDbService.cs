@@ -36,13 +36,11 @@ public class MongoDbService
         return x;
     }
 
-    public async Task AddTransition(ShorterLink link)
+    public async Task AddTransition(string id)
     {
-        var filter = Builders<ShorterLink>.Filter.Eq(x => x.Id, link.Id);
-
-        var newTransitionsCount = link.TransitionsCount + 1;
+        var filter = Builders<ShorterLink>.Filter.Eq(x => x.Id, id);
         
-        var update = Builders<ShorterLink>.Update.Set("TransitionsCount", newTransitionsCount);
+        var update = Builders<ShorterLink>.Update.Inc("TransitionsCount", 1);
         
         await _shorterlinksCollection.UpdateOneAsync(filter, update);
     }

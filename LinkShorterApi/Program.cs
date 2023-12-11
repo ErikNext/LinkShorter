@@ -1,13 +1,12 @@
 using Database.Mongo;
-using LinkShorterApi.Services;
-using Microsoft.OpenApi.Models;
+using LinkShorter.Domain;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection("MongoDB"));
+
 builder.Services.AddSingleton<MongoDbService>();
 builder.Services.AddSingleton<LinkService>();
-
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

@@ -1,16 +1,16 @@
 ﻿using Database.Mongo.Models;
-using LinkShorterApi.Services;
+using LinkShorter.Domain;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LinkShorterApi.Contollers;
 
 [ApiController]
 [Route("[controller]")]
-public class LinkConroller : ControllerBase
+public class LinkController : ControllerBase
 {
     private readonly LinkService _linkService;
 
-    public LinkConroller(LinkService linkService)
+    public LinkController(LinkService linkService)
     {
         _linkService = linkService;
     }

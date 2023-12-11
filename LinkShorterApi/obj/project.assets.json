@@ -431,6 +431,20 @@
         "runtime": {
           "bin/placeholder/Database.Mongo.dll": {}
         }
+      },
+      "LinkShorter.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Database.Mongo": "1.0.0",
+          "NUlid": "1.7.1"
+        },
+        "compile": {
+          "bin/placeholder/LinkShorter.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LinkShorter.Domain.dll": {}
+        }
       }
     }
   },
@@ -1140,11 +1154,17 @@
       "type": "project",
       "path": "../Database.Mongo/Database.Mongo.csproj",
       "msbuildProject": "../Database.Mongo/Database.Mongo.csproj"
+    },
+    "LinkShorter.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LinkShorter.Domain/LinkShorter.Domain.csproj",
+      "msbuildProject": "../LinkShorter.Domain/LinkShorter.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Database.Mongo >= 1.0.0",
+      "LinkShorter.Domain >= 1.0.0",
       "NUlid >= 1.7.1",
       "Swashbuckle.AspNetCore.Swagger >= 6.5.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.5.0",
@@ -1180,6 +1200,9 @@
           "projectReferences": {
             "C:\\Users\\Erik\\RiderProjects\\LinkShorterApi\\Database.Mongo\\Database.Mongo.csproj": {
               "projectPath": "C:\\Users\\Erik\\RiderProjects\\LinkShorterApi\\Database.Mongo\\Database.Mongo.csproj"
+            },
+            "C:\\Users\\Erik\\RiderProjects\\LinkShorterApi\\LinkShorter.Domain\\LinkShorter.Domain.csproj": {
+              "projectPath": "C:\\Users\\Erik\\RiderProjects\\LinkShorterApi\\LinkShorter.Domain\\LinkShorter.Domain.csproj"
             }
           }
         }

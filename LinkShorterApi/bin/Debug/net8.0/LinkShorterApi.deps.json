@@ -9,6 +9,7 @@
       "LinkShorterApi/1.0.0": {
         "dependencies": {
           "Database.Mongo": "1.0.0",
+          "LinkShorter.Domain": "1.0.0",
           "NUlid": "1.7.1",
           "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
@@ -222,6 +223,15 @@
         "runtime": {
           "Database.Mongo.dll": {}
         }
+      },
+      "LinkShorter.Domain/1.0.0": {
+        "dependencies": {
+          "Database.Mongo": "1.0.0",
+          "NUlid": "1.7.1"
+        },
+        "runtime": {
+          "LinkShorter.Domain.dll": {}
+        }
       }
     }
   },
@@ -414,6 +424,11 @@
       "hashPath": "zstdsharp.port.0.6.2.nupkg.sha512"
     },
     "Database.Mongo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LinkShorter.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

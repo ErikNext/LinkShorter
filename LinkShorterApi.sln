@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkShorterApi", "LinkShort
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database.Mongo", "Database.Mongo\Database.Mongo.csproj", "{A72400AD-64F9-4F06-8CEB-C25962B2EF03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkShorter.Domain", "LinkShorter.Domain\LinkShorter.Domain.csproj", "{005E6177-5548-4340-8A83-05C1DDA94F9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{A72400AD-64F9-4F06-8CEB-C25962B2EF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A72400AD-64F9-4F06-8CEB-C25962B2EF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A72400AD-64F9-4F06-8CEB-C25962B2EF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005E6177-5548-4340-8A83-05C1DDA94F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005E6177-5548-4340-8A83-05C1DDA94F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005E6177-5548-4340-8A83-05C1DDA94F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005E6177-5548-4340-8A83-05C1DDA94F9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -46,3 +46,5 @@ C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorterApi\bin\Debug\net8.0\runti
 C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorterApi\bin\Debug\net8.0\Database.Mongo.dll
 C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorterApi\bin\Debug\net8.0\Database.Mongo.pdb
 C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorterApi\bin\Debug\net8.0\NUlid.dll
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorterApi\bin\Debug\net8.0\LinkShorter.Domain.dll
+C:\Users\Erik\RiderProjects\LinkShorterApi\LinkShorterApi\bin\Debug\net8.0\LinkShorter.Domain.pdb

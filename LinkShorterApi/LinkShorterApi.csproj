@@ -15,6 +15,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Database.Mongo\Database.Mongo.csproj" />
+      <ProjectReference Include="..\LinkShorter.Domain\LinkShorter.Domain.csproj" />
     </ItemGroup>
 
 </Project>

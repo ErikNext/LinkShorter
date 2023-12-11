@@ -1,10 +1,9 @@
-﻿using System.CodeDom.Compiler;
-using Database.Mongo;
+﻿using Database.Mongo;
 using Database.Mongo.Models;
-using LinkShorterApi.Models;
+using LinkShorter.Domain.Models;
 using NUlid;
 
-namespace LinkShorterApi.Services;
+namespace LinkShorter.Domain;
 
 public class LinkService
 {
@@ -48,7 +47,7 @@ public class LinkService
             throw new Exception("Can`t find this link");
         }
         
-        await _mongoDbService.AddTransition(shorterLink);
+        await _mongoDbService.AddTransition(shorterLink.Id);
         
         return MapToDto(shorterLink);
     }
@@ -58,20 +57,16 @@ public class LinkService
         return new Link(shorterLink.Key, shorterLink.MainLink, shorterLink.TransitionsCount);
     }
 
-    static string GenerateRandomCode()
+    private static string GenerateRandomCode()
     {
-        Random random = new Random();
         const string characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        int codeLength = 5;
+        var codeLength = 5;
 
-        char[] codeArray = new char[5];
+        char[] codeArray = new char[codeLength];
 
         for (int i = 0; i < codeLength; i++)
-        {
-            codeArray[i] = characters[random.Next(characters.Length)];
-        }
+            codeArray[i] = characters[Random.Shared.Next(characters.Length)];
 
-        string generatedCode = new string(codeArray);
-        return generatedCode;
+        return new string(codeArray);
     }
 }
